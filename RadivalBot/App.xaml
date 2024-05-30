@@ -1,0 +1,10 @@
+﻿<Application x:Class="RadicalAIBot.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:RadicalAIBot"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Define EmptyStringToVisibilityConverter as a resource -->
+        <local:EmptyStringToVisibilityConverter x:Key="EmptyStringToVisibilityConverter"/>
+    </Application.Resources>
+</Application>
